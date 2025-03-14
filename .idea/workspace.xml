@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="182921a0-f216-4037-85bd-0896d5886e73" name="Changes" comment="Project 3 order example(if-else)">
+    <list default="true" id="182921a0-f216-4037-85bd-0896d5886e73" name="Changes" comment="practice_function in python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   "keyToString": {
     "Python.BMI_Calculator.executor": "Run",
     "Python.function_practice.executor": "Run",
+    "Python.health_caculator.executor": "Run",
     "Python.main.executor": "Run",
     "Python.order_practice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741834653821</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="practice_function in python">
+      <option name="closed" value="true" />
+      <created>1741942228156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741942228156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day1 &amp; Day2 class_projects" />
     <MESSAGE value="Project 3 order example(if-else)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project 3 order example(if-else)" />
+    <MESSAGE value="practice_function in python" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice_function in python" />
   </component>
 </project>
