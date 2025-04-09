@@ -46,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.BMI_Calculator.executor": "Run",
+    "Python.Numpy_dataType.executor": "Run",
     "Python.Numpy_practice.executor": "Run",
     "Python.function_practice.executor": "Run",
     "Python.health_caculator.executor": "Run",
