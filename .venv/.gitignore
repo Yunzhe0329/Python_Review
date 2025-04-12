@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+# 忽略 PyCharm 設定檔
+.idea/
+*.iml
+.venv/
