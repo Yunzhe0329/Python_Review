@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45b7681b-a7d0-4708-b4f5-456299b6b2e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Numpy_ufuns.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Numpy_ufuns.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.Numpy_dataType.executor": "Run",
+    "Python.Numpy_practice.executor": "Run",
     "Python.Numpy_ufuns.executor": "Run",
     "Python.Random_in_Numpy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,5 +101,16 @@
       <updated>1744454986290</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/Numpy_ufuns.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -37,7 +37,7 @@ print(myAdd([1, 2, 3, 4],[4, 5, 6, 7] ))
 arr1 = [1, 2, 3, 4, 5]
 arr2 = [6, 7, 8, 9, 10]
 
-#newarr = np.add(arr1, arr2)
+# newarr = np.add(arr1, arr2)
 # newarr = np.subtract(arr1, arr2)
 # newarr = np.multiply(arr1, arr2)
 # newarr = np.divide(arr1, arr2)
@@ -86,15 +86,91 @@ arr3 = [-1, -10, -3, -2]
 #     [7]]
 
 #product : 乘積計算
-a = np.array([2, 3, 4])
-print(np.prod(a))
-arr_1 = np.array([1, 2, 3, 4])
-arr_2 = np.array([5, 6, 7, 8])
-#Find the product of the elements of two arrays
-print(np.prod([arr_1, arr_2]))
-#product over axis ; axis=0 => column
-print(np.prod([arr_1, arr_2], axis=1))
-#Cummulative Product
-print(np.cumprod(a))
+# a = np.array([2, 3, 4])
+# print(np.prod(a))
+# arr_1 = np.array([1, 2, 3, 4])
+# arr_2 = np.array([5, 6, 7, 8])
+# #Find the product of the elements of two arrays
+# print(np.prod([arr_1, arr_2]))
+# #product over axis ; axis=0 => column
+# print(np.prod([arr_1, arr_2], axis=1))
+# #Cummulative Product
+# print(np.cumprod(a))
 
+#Difference 差值運算 : 計算一個陣列「相鄰元素之間的差值
+#parameter : n :做多次差值（差的差）
+# arr = np.array([10, 15, 25, 5])
+# newarr = np.diff(arr, n = 2) #[  5 -30]
+# print(newarr)
 
+#Lowest Common Multiple,LCM 最小公倍數
+# num1 = 4
+# num2 = 6
+# x = np.lcm(num1, num2)
+# print(x)
+# #計算多個數的 LCM（用 reduce()）
+# nums = [4, 6, 8]
+# print(np.lcm.reduce(nums))
+
+#Greatest Common Devisor,GCD 最大公因數
+# num1 = 6
+# num2 = 9
+# x = np.gcd(num1, num2)
+# print(x)
+# #GCD in arrays
+# nums = [20, 8, 32, 36, 16]
+# print(np.gcd.reduce(nums))
+#------------------------------------------------------------------------
+
+# #Trigonometric Functions
+# #np.pi，NumPy 提供的常數 π（約 3.14159）
+# # x = np.sin(np.pi/2)
+# # print(x)
+# # arr = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])
+# # z = np.sin(arr)
+# # print(z)
+# #Convert Degrees Into Radians : radians values are pi/180 * degree_values.
+# arr = np.array([90, 180, 270, 360])
+# x = np.deg2rad(arr)
+# print(x)
+# #Radians to Degrees
+# arr_rad = np.array([np.pi/2, np.pi, 1.5*np.pi, 2*np.pi])
+# z = np.rad2deg(arr_rad)
+# print(z)
+# #Hypotenues
+# base = 3
+# perp = 4
+# y = np.hypot(base, perp)
+# print(y)
+
+#------------------------------------------------------------------------
+#Hyperbolic Functions雙曲線函數 :sinh(), cosh() and tanh() that take values in radians and produce the corresponding sinh, cosh and tanh values
+# x = np.sinh(np.pi/2)
+# print(x)
+# arr = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])
+# x = np.cosh(arr)
+# print(x)
+
+#NumPy Set Operations 集合運算
+
+arr = np.array([1, 1, 1, 2, 3, 4, 5, 5, 6, 7])
+#unique() 對陣列去重並排序
+x = np.unique(arr)
+print(x)
+#union1d()聯集：合併不重複元素
+arr1 = np.array([1, 2, 3, 4])
+arr2 = np.array([3, 4, 5, 6])
+newarr = np.union1d(arr1, arr2)
+print(newarr)
+#intersection1d() 找交集 ，預設會先做Unique去重複再找交集
+#parameter :assume_unique=True or False (True就代表你告訴NumPy：「我保證傳進來的兩個陣列都沒有重複值」可以省略 unique() 的處理，執行速度更快！)
+newarr_intersec = np.intersect1d(arr1, arr2)
+print(newarr_intersec)
+#setdiff1d()差集 => 在 a 不在 b 的值(有先後順序!)
+set1 = np.array([1, 2, 3, 4])
+set2 = np.array([3, 4, 5, 6])
+newarr_diff = np.setdiff1d(set1, set2, assume_unique=True)
+print(newarr_diff)
+# Symmetric Difference=> setxor1d() 對稱差集 : 僅出現在其中一邊的值
+newarr_symmetricdiff = np.setxor1d(set1, set2)
+print(newarr_symmetricdiff)
