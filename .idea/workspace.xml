@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45b7681b-a7d0-4708-b4f5-456299b6b2e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Numpy_ufuns.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Numpy_ufuns.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +48,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.Analyzing_DataFrames.executor": "Run",
     "Python.Numpy_dataType.executor": "Run",
     "Python.Numpy_practice.executor": "Run",
     "Python.Numpy_ufuns.executor": "Run",
     "Python.Random_in_Numpy.executor": "Run",
+    "Python.Read_dataFiles.executor": "Run",
+    "Python.cleaningData.executor": "Run",
+    "Python.getStarted_pandas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\PythonReview" />
+      <recent name="C:\Users\user\PycharmProjects\PythonReview\venv" />
+      <recent name="C:\Users\user\PycharmProjects\PythonReview\" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Numpy_dataType" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonReview" />
@@ -107,7 +117,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.venv/Numpy_ufuns.py</url>
-          <line>176</line>
+          <line>175</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
