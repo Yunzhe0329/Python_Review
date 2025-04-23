@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45b7681b-a7d0-4708-b4f5-456299b6b2e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/cleaningData.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/cleaningData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.Analyzing_DataFrames.executor": "Run",
-    "Python.Numpy_dataType.executor": "Run",
-    "Python.Numpy_practice.executor": "Run",
-    "Python.Numpy_ufuns.executor": "Run",
-    "Python.Random_in_Numpy.executor": "Run",
-    "Python.Read_dataFiles.executor": "Run",
-    "Python.cleaningData.executor": "Run",
-    "Python.getStarted_pandas.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Analyzing_DataFrames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Numpy_dataType.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Numpy_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Numpy_ufuns.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Random_in_Numpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Read_dataFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cleaningData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getStarted_pandas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\PythonReview" />
