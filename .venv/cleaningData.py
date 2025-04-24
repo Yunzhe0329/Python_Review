@@ -1,8 +1,9 @@
 import pandas as pd
-df = pd.read_csv("fitness_data.csv")
+import matplotlib.pyplot as plt
+df = pd.read_csv("data.csv")
 #Empty cells => can potentially give you a wrong result when you analyze data
 #(1)dropna()Return a new Data Frame with no empty cells, inplace設定True會直接從原始資料移除empty cell，若確定不需要保留原始資料可以使用來節省memory
-empty_cells = df.dropna()
+# empty_cells = df.dropna()
 # print(empty_cells)
 #Replace Empty Values
 #(2)fillna() method allows us to replace empty cells with a value
@@ -29,6 +30,9 @@ empty_cells = df.dropna()
 # df.dropna(subset=["Date"], inplace=True)
 # print(df.to_string())
 
+
+
+
 #Fixing Wrong Data => row7        450  '2020/12/08'    104       134     253.3
 #(1) 直接修改資料
 # df.loc[7, "Duration"] = 45
@@ -47,5 +51,20 @@ empty_cells = df.dropna()
 
 #Remove duplacates
 # print(df.duplicated()) # row 12 is a duplicate data
-df.drop_duplicates(inplace = True)
-print(df.duplicated())
+# df.drop_duplicates(inplace = True)
+# print(df.duplicated())
+
+#Correlation
+print(df.corr())
+
+
+#plot
+# df.plot()
+# plt.show()
+
+#Scatter plot (散佈圖)
+# df.plot(kind="scatter", x="Duration", y = "Calories")
+
+#hist 直方圖
+df["Duration"].plot(kind = "hist")
+plt.show()
